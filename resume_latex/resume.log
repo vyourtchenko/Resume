@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  22 APR 2025 18:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  2 AUG 2025 15:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -429,14 +429,14 @@ LaTeX Font Info:    ... okay on input line 154.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(56.9055pt, 500.484pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* v-part:(T,H,B)=(42.67912pt, 709.61174pt, 42.67912pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=500.484pt
-* \textheight=681.15898pt
+* \textheight=709.61174pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-52.36449pt
+* \topmargin=-66.59087pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=0.0pt
@@ -493,21 +493,14 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 160.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 209.
+(Font)              <9> on input line 197.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 209.
+(Font)              <6> on input line 197.
 
 
 [1
 
-{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}]
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.379 \end{document}
-                     [2] 
+{/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 
 Package lastpage Warning: \@currentHpage is
@@ -521,18 +514,18 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15499 strings out of 473190
- 262402 string characters out of 5715801
- 683862 words of memory out of 5000000
- 38540 multiletter control sequences out of 15000+600000
- 597793 words of font info for 66 fonts, out of 8000000 for 9000
+ 15485 strings out of 473190
+ 262198 string characters out of 5715801
+ 684870 words of memory out of 5000000
+ 38534 multiletter control sequences out of 15000+600000
+ 591350 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,79p,383b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchbi8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
-Output written on resume.pdf (2 pages, 108681 bytes).
+ 75i,7n,79p,358b,461s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/lm/lmsy9.pfb>
+Output written on resume.pdf (1 page, 46971 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 82 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 65 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

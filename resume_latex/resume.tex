@@ -3,8 +3,8 @@
 % Packages:
 \usepackage[
     ignoreheadfoot, % set margins without considering header and footer
-    top=2 cm, % seperation between body and page edge from the top
-    bottom=2 cm, % seperation between body and page edge from the bottom
+    top=1.5 cm, % seperation between body and page edge from the top
+    bottom=1.5 cm, % seperation between body and page edge from the bottom
     left=2 cm, % seperation between body and page edge from the left
     right=2 cm, % seperation between body and page edge from the right
     footskip=1.0 cm, % seperation between body and footer
@@ -108,7 +108,7 @@
 \newenvironment{twocolentry}[2][]{
     \onecolentry
     \def\secondColumn{#2}
-    \setcolumnwidth{\fill, 4.5 cm}
+    \setcolumnwidth{\fill, 5 cm}
     \begin{paracol}{2}
 }{
     \switchcolumn \raggedleft \secondColumn
@@ -162,12 +162,9 @@
     \begin{header}
         \fontsize{25 pt}{25 pt}\selectfont Vladislav Yourtchenko
 
-        \vspace{5 pt}
+        \vspace{1 pt}
 
         \normalsize
-        \mbox{Chicago}%
-        \kern 5.0 pt%
-        \AND%
         \kern 5.0 pt%
         \mbox{\hrefWithoutArrow{mailto:vyourtchenko@gmail.com}{vyourtchenko@gmail.com}}%
         \kern 5.0 pt%
@@ -177,62 +174,27 @@
         \kern 5.0 pt%
         \AND%
         \kern 5.0 pt%
-        \mbox{\hrefWithoutArrow{https://github.com/Zer0megAlpha}{github.com/Zer0megAlpha}}%
+        \mbox{\hrefWithoutArrow{https://github.com/vyourtchenko}{github.com/vyourtchenko}}%
     \end{header}
 
     \vspace{5 pt - 0.3 cm}
 
 
-    \section{Welcome to RenderCV!}
-
-
-
-        
-        \begin{onecolentry}
-            \href{https://rendercv.com}{RenderCV} is a LaTeX-based CV/resume version-control and maintenance app. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with \textbf{Markdown syntax support} and \textbf{complete control over the LaTeX code}.
-        \end{onecolentry}
-
-        \vspace{0.2 cm}
-
-        \begin{onecolentry}
-            The boilerplate content was inspired by \href{https://github.com/dnl-blkv/mcdowell-cv}{Gayle McDowell}.
-        \end{onecolentry}
-
-
-    
-    \section{Quick Guide}
-
-    \begin{onecolentry}
-        \begin{highlightsforbulletentries}
-
-
-        \item Each section title is arbitrary and each section contains a list of entries.
-
-        \item There are 7 unique entry types: \textit{BulletEntry}, \textit{TextEntry}, \textit{EducationEntry}, \textit{ExperienceEntry}, \textit{NormalEntry}, \textit{PublicationEntry}, and \textit{OneLineEntry}.
-
-        \item Select a section title, pick an entry type, and start writing your section!
-
-        \item \href{https://docs.rendercv.com/user_guide/}{Here}, you can find a comprehensive user guide for RenderCV.
-
-
-        \end{highlightsforbulletentries}
-    \end{onecolentry}
-
+   
     \section{Education}
 
 
 
         
         \begin{twocolentry}{
-            Sept 2000 – May 2005
+            Graduated Jun. 2019
         }
-            \textbf{Depaul University}, BS in Computer Science\end{twocolentry}
+            \textbf{Depaul University}, BS in Computer Science, GPA: 3.5\end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item GPA: 3.5
-                \item \textbf{Coursework:} Computer Architecture, Comparison of Learning Algorithms, Computational Theory
+                \item Upsilon Pi Epsilon (UPE) member
             \end{highlights}
         \end{onecolentry}
 
@@ -245,16 +207,15 @@
 
         
         \begin{twocolentry}{
-            June 2005 – Aug 2007
+            Aug. 2021 – Present
         }
-            \textbf{Software Engineer}, Apple -- Cupertino, CA\end{twocolentry}
+            \textbf{Senior Software Engineer, Connamara Systems\\
+            Financial Exchange Technologies} -- Chicago, IL\end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Reduced time to render user buddy lists by 75\% by implementing a prediction algorithm
-                \item Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-                \item Redesigned chat file format and implemented backward compatibility for search
+                \item Developed and maintained financial exchange technologies, open source quickfix libraries, and web applications, managing deployments and client communications using Docker, Kubernetes, and Kafka.
             \end{highlights}
         \end{onecolentry}
 
@@ -262,44 +223,109 @@
         \vspace{0.2 cm}
 
         \begin{twocolentry}{
-            June 2003 – Aug 2003
+            Jun. 2019 – Aug. 2021
         }
-            \textbf{Software Engineer Intern}, Microsoft -- Redmond, WA\end{twocolentry}
+            \textbf{Software Engineer, Motorola Solutions\\
+            Telecommunications} -- Chicago, IL\end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows
-                \item Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching
-                \item Built an app to compute the similarity of all methods in a codebase, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-                \item Created a test case generation tool that creates random XML docs from XML Schema
-                \item Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts
+                \item Developed full-stack applications for cell tower maintenance scheduling, including REST APIs, microservices, and Kubernetes container management, while utilizing Azure, Redis, RabbitMQ, and automation pipelines.
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            Jun. 2018 – Aug. 2018
+        }
+            \textbf{Software Engineer Intern, Farmer's Fridge\\
+            Food \& Beverage Technologies} -- Chicago, IL\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Created an accessible food reservation platform using AWS services, including Lambda, DynamoDB, and Alexa skills, to support customers with disabilities.
+            \end{highlights}
+        \end{onecolentry}
+
+
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            Jun. 2017 – Mar. 2018
+        }
+            \textbf{Software Developer Intern, The Cities Project\\
+            Nonprofit School Intervention Program} -- Chicago, IL\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Redesigned and managed a nonprofit website, improving user experience and SEO with JavaScript.
+            \end{highlights}
+        \end{onecolentry}
+
+        
+        \vspace{0.2 cm}
+
+        \begin{twocolentry}{
+            Jun. 2015 – Aug. 2016
+        }
+            \textbf{Software Developer, Yula\\
+            Data Warehousing} -- Evanston, IL\end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Developed and maintained a WordPress website and provided marketing consultation for a professional online presence.
             \end{highlights}
         \end{onecolentry}
 
 
 
     
-    \section{Publications}
+    \section{Hackathons}
 
 
 
         
         \begin{samepage}
             \begin{twocolentry}{
-                Jan 2004
+                Oct. 2018
             }
-                \textbf{3D Finite Element Analysis of No-Insulation Coils}
+                \textbf{Won 2nd place in DemonHacks 2018 for MLH 2019 Hackathon Season}
             \end{twocolentry}
 
             \vspace{0.10 cm}
             
             \begin{onecolentry}
-                \mbox{Frodo Baggins}, \mbox{\textbf{\textit{John Doe}}}, \mbox{Samwise Gamgee}
+                Developed a Google Home Action Skill in 26 hours with a team of 4, enabling users to check allergens in products via voice recognition and the USDA API.
 
                 \vspace{0.10 cm}
                 
-        \href{https://doi.org/10.1109/TASC.2023.3340648}{10.1109/TASC.2023.3340648}
+        \textbf{Our Submission:} \href{https://devpost.com/software/can-i-eat-this-medw90}{devpost.com/software/can-i-eat-this-medw90}
+        \end{onecolentry}
+        \end{samepage}
+
+        \vspace{0.2 cm}
+
+        \begin{samepage}
+            \begin{twocolentry}{
+                Oct. 2017
+            }
+                \textbf{Won 3rd place in DemonHacks 2017 for MLH 2018 Hackathon Season}
+            \end{twocolentry}
+
+            \vspace{0.10 cm}
+            
+            \begin{onecolentry}
+                Developed the BetterTabs Chrome extension in 36 hours with a team of 4, allowing dynamic tab grouping, sorting by domain, and enhanced tab management to improve browser efficiency.
+
+                \vspace{0.10 cm}
+                
+        \textbf{Our Submission:} \href{https://devpost.com/software/better-tabs}{devpost.com/software/better-tabs}
         \end{onecolentry}
         \end{samepage}
 
@@ -309,17 +335,15 @@
 
 
 
-        
         \begin{twocolentry}{
-            \href{https://github.com/sinaatalay/rendercv}{github.com/name/repo}
+            \href{https://github.com/vyourtchenko/SLFV}{github.com/vyourtchenko/SLFV}
         }
-            \textbf{Multi-User Drawing Tool}\end{twocolentry}
+            \textbf{Steam Friends List Visualizer}\end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Developed an electronic classroom where multiple users can simultaneously view and draw on a "chalkboard" with each person's edits synchronized
-                \item Tools Used: C++, MFC
+                \item Built a Python-based Steam Friends List Visualizer using Steam's API to map users and their connections up to three degrees of separation, visualized with D3.js.
             \end{highlights}
         \end{onecolentry}
 
@@ -327,31 +351,14 @@
         \vspace{0.2 cm}
 
         \begin{twocolentry}{
-            \href{https://github.com/sinaatalay/rendercv}{github.com/name/repo}
+            \href{https://github.com/vyourtchenko/YGYL}{github.com/vyourtchenko/YGYL}
         }
-            \textbf{Synchronized Desktop Calendar}\end{twocolentry}
+            \textbf{Message Board Web Scraper}\end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
-                \item Tools Used: C\#, .NET, SQL, XML
-            \end{highlights}
-        \end{onecolentry}
-
-
-        \vspace{0.2 cm}
-
-        \begin{twocolentry}{
-            2002
-        }
-            \textbf{Custom Operating System}\end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item Built a UNIX-style OS with a scheduler, file system, text editor, and calculator
-                \item Tools Used: C
+                \item Developed a Python web scraper using BeautifulSoup to catalog relevant threads, comments, and webm files from a message board archive, organizing them by thread and preventing duplicate downloads.
             \end{highlights}
         \end{onecolentry}
 
@@ -364,13 +371,13 @@
 
         
         \begin{onecolentry}
-            \textbf{Languages:} C++, C, Java, Objective-C, C\#, SQL, JavaScript
+            \textbf{Languages:} Java, C\#, Golang, Rust, JavaScript, Python, C++
         \end{onecolentry}
 
         \vspace{0.2 cm}
 
         \begin{onecolentry}
-            \textbf{Technologies:} .NET, Microsoft SQL Server, XCode, Interface Builder
+            \textbf{Technologies:} Docker, Kubernetes, Kafka, RabbitMQ, Prometheus, Grafana
         \end{onecolentry}
 
 
